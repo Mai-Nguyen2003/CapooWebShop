@@ -1,0 +1,6 @@
+com\capoo\entities\Product.class
+com\capoo\entities\OrderedItem.class
+com\capoo\entities\RequestedOrder.class
+com\capoo\function\SearchProducts.class
+com\capoo\function\BuyOrder.class
+com\capoo\function\Function.class
