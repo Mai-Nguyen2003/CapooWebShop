@@ -13,7 +13,7 @@ public class Function {
      * 1. curl -d "HTTP Body" {your host}/api/SearchProducts
      * 2. curl {your host}/api/SearchProducts?name=HTTP%20Query
      */
-    @FunctionName("SearchProducts")
+    @FunctionName("function")
     public HttpResponseMessage run(
             @HttpTrigger(name = "req", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
