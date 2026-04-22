@@ -89,7 +89,7 @@ export default function Cart({cart, setCart}) {
                     <h2>Thank you for ordering at Capoo Shop ❤️</h2>
                     <form method="dialog">
                         <img src={happBuy + sas} height="150" width="150"/>
-                        <p>{order.userName}, your present will arive soon. Please check your emai ({order.email}) for order confirmation.</p>
+                        <p>{order.userName}, your present will arive soon. Please check your email ({order.email}) for order confirmation.</p>
                         <button onClick={() => setOrder({
                             userName: null,
                             email: null,
